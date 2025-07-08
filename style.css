@@ -341,7 +341,7 @@ background: linear-gradient(to bottom, #FFFFFF 3.3%, #A2A1A1 96.69%);
 }
 @media(max-width: 410px) {
     .app-container{
-      padding-left: 5px; 
+      padding-left: 0px; 
       padding-top: 50px;
     }
 }
@@ -360,7 +360,7 @@ background: linear-gradient(to bottom, #FFFFFF 3.3%, #A2A1A1 96.69%);
 @media(max-width: 410px) {
     .box img{
       width: 50%;
-      height:80px ;
+      height:80px;
     }
     
     }
@@ -379,7 +379,7 @@ background: linear-gradient(to bottom, #FFFFFF 3.3%, #A2A1A1 96.69%);
 }
 @media(max-width: 375px) {
     .wrapper img{
-      padding-left: 5px; 
+      padding-left: 10px; 
     }
 }
 .content {
@@ -393,7 +393,7 @@ background: linear-gradient(to bottom, #FFFFFF 3.3%, #A2A1A1 96.69%);
 }
 @media(max-width: 375px) {
     .content{
-      margin-left: 5px; 
+      margin-left: 1px; 
     }
 }
 
@@ -423,7 +423,7 @@ background: linear-gradient(to bottom, #FFFFFF 3.3%, #A2A1A1 96.69%);
 }
 @media(max-width: 410px) {
     .newr{
-      margin-left: 2px; 
+      margin-left: 0px; 
     }
 }
 
@@ -475,7 +475,7 @@ background: linear-gradient(to bottom, #FFFFFF 3.3%, #A2A1A1 96.69%);
 }
 @media(max-width: 410px) {
     .card-container{
-      padding-left: 1px; 
+      padding-left: 0px; 
     }
 }
 .card img {
@@ -486,7 +486,7 @@ background: linear-gradient(to bottom, #FFFFFF 3.3%, #A2A1A1 96.69%);
 }
 @media(max-width: 410px) {
     .card img{
-      padding-left: 1px;
+      padding-left: 0px;
       width: 100px;
       height: 180px;
     }
