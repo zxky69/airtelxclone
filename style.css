@@ -341,7 +341,7 @@ background: linear-gradient(to bottom, #FFFFFF 3.3%, #A2A1A1 96.69%);
 }
 @media(max-width: 410px) {
     .app-container{
-      padding-left: 20px; 
+      padding-left: 5px; 
       padding-top: 50px;
     }
 }
@@ -373,13 +373,13 @@ background: linear-gradient(to bottom, #FFFFFF 3.3%, #A2A1A1 96.69%);
 }
 @media(max-width: 490px) {
     .wrapper img{
-      padding-left: 50px; 
+      padding-left: 10px; 
       /* height: 120px; */
     }
 }
-@media(max-width: 320px) {
+@media(max-width: 375px) {
     .wrapper img{
-      padding-left: 20px; 
+      padding-left: 5px; 
     }
 }
 .content {
@@ -391,6 +391,11 @@ background: linear-gradient(to bottom, #FFFFFF 3.3%, #A2A1A1 96.69%);
       margin-left: 20px; 
     }
 }
+@media(max-width: 375px) {
+    .content{
+      margin-left: 5px; 
+    }
+}
 
 .newr h2{
   color: rgb(232, 234, 237);
@@ -398,10 +403,16 @@ background: linear-gradient(to bottom, #FFFFFF 3.3%, #A2A1A1 96.69%);
   padding-left: 5px;
   position: absolute;
 }
+@media(max-width: 410px) {
+    .newr h2{
+      padding-left: 2px; 
+    }
+}
 
 .tex{
   margin-left: 50px;
 }
+
 
 
 .newr{
@@ -409,6 +420,11 @@ background: linear-gradient(to bottom, #FFFFFF 3.3%, #A2A1A1 96.69%);
   margin-left: 15px;
   /* border: 1px solid; */
   /* position: absolute/; */
+}
+@media(max-width: 410px) {
+    .newr{
+      margin-left: 2px; 
+    }
 }
 
 .newr button{
@@ -430,6 +446,7 @@ background: linear-gradient(to bottom, #FFFFFF 3.3%, #A2A1A1 96.69%);
   width: 50px;
   /* position: absolute; */
 }
+
 
 .card-container {
   display: flex;
@@ -456,6 +473,11 @@ background: linear-gradient(to bottom, #FFFFFF 3.3%, #A2A1A1 96.69%);
   /* z-index:100; */
   /* border: 2px solid red; */
 }
+@media(max-width: 410px) {
+    .card-container{
+      padding-left: 1px; 
+    }
+}
 .card img {
   width: 150px;
   height: 250px;
@@ -464,6 +486,7 @@ background: linear-gradient(to bottom, #FFFFFF 3.3%, #A2A1A1 96.69%);
 }
 @media(max-width: 410px) {
     .card img{
+      padding-left: 1px;
       width: 100px;
       height: 180px;
     }
